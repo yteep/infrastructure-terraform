@@ -13,7 +13,7 @@ This repository contains Terraform configurations to provision a Virtual Machine
 
 ## 🚀 Quick Start
 ```bash
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/yteep/infrastructure-terraform.git
 cd GCP-VM
 terraform init
 terraform apply -auto-approve
