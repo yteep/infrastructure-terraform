@@ -1,0 +1,20 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "IAMReadAndCreatePolicyAccess",
+            "Effect": "Allow",
+            "Action": [
+                "iam:Get*",
+                "iam:List*",
+                "iam:GetLoginProfile",
+                "iam:CreatePolicy",
+                "iam:DeletePolicy",
+                "iam:TagPolicy"
+            ],
+            "Resource": [
+                "arn:aws:iam::175725312629:policy/LambdaS3BucketManagementPolicy"
+            ]
+        }
+    ]
+}

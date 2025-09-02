@@ -1,0 +1,41 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ManageLambdaFunctions",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:CreateFunction",
+                "iam:PassRole",
+                "lambda:GetFunction",
+                "lambda:ListAliases",
+                "lambda:GetFunctionConfiguration",
+                "lambda:DeleteFunction",
+                "lambda:GetPolicy",
+                "lambda:TagResource",
+                "lambda:UpdateFunctionCode",
+                "lambda:UpdateFunctionConfiguration",
+                "lambda:CreateFunctionUrlConfig",
+                "lambda:AddPermission",
+                "lambda:GetFunctionUrlConfig",
+                "lambda:DeleteFunctionUrlConfig",
+                "lambda:RemovePermission"
+            ],
+            "Resource": [
+                "arn:aws:iam::175725312629:role/LambdaS3BucketManagementRole",
+                "arn:aws:lambda:us-east-1:175725312629:function:function_date_time"
+            ]
+        },
+        {
+            "Sid": "ListResources",
+            "Effect": "Allow",
+            "Action": [
+                "lambda:ListFunctions",
+                "lambda:ListLayers",
+                "lambda:ListVersionsByFunction",
+                "lambda:GetFunctionCodeSigningConfig"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
