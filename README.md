@@ -1,24 +1,19 @@
-# 🚀 Terraform GCP VM Deployment
+# ☁️ Cloud-Infra
 
-This repository contains Terraform configurations to provision a Virtual Machine (VM) on Google Cloud Platform (GCP).
+![Cloud Infra](https://img.shields.io/badge/Cloud-Infrastructure-blue?style=flat-square)
 
-## 📂 Project Structure
-```
-/GCP-VM/
-│── backend/         # Terraform backend configuration
-│── modules/vm/      # Reusable VM module
-│── main.tf          # Root module
-│── outputs.tf       # Output values
-```
+This repository is all about **Infrastructure as Code (IaC)** for provisioning **cloud resources** using Terraform.  
+It focuses solely on cloud infrastructure, helping you automate and manage your cloud environment efficiently.  
 
-## 🚀 Quick Start
-```bash
-git clone https://github.com/yteep/infrastructure-terraform.git
-cd GCP-VM
-terraform init
-terraform apply -auto-approve
-```
+---
 
-## 📬 Contact
-For queries, reach out to: https://medium.com/@yashashtp 
+💡 **What you'll find here:**  
+- 🔹 Modular Terraform setup for easy reuse  
+- 🔹 Serverless architecture examples  
+- 🔹 AWS services included: Lambda, S3, API Gateway, IAM, and more  
+- 🔹 Environment-specific configurations (`dev`, `prod`)  
 
+---
+
+Stay updated—follow me on Medium 📝
+https://medium.com/@yashashtp 
